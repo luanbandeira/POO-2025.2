@@ -1,13 +1,14 @@
 public class Circulo{
-    double raio;
+    public static final double PI = 3.1415;   //acessar um static atraves da classe pois é reutilizado pra classe toda 
+    double raio;                               //
 
 
     double comprimento(){
-        return 2* 3.14 * raio;
+        return 2* PI * raio;
     }
 
     double area(){
-        return 3.14 * raio * raio;
+        return PI * raio * raio;
     }
 
 
