@@ -5,6 +5,6 @@ public class Gato extends Animal {
     }
 
     public String arranharMovel(){
-        return "gato arranhou movel";
+        return "gato arranhou  o móvel";
     }
 }
